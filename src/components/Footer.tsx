@@ -7,9 +7,9 @@ import {
     Text,
     useColorModeValue,
     VisuallyHidden,
-  } from '@chakra-ui/react';
-  import { FaInstagram, FaLinkedin } from 'react-icons/fa';
-  import { ReactNode } from 'react';
+  } from "@chakra-ui/react";
+  import { FaInstagram, FaLinkedin } from "react-icons/fa";
+  import { ReactNode } from "react";
   
   const Logo = (props: any) => {
     return (
@@ -41,20 +41,20 @@ import {
   }) => {
     return (
       <chakra.button
-        bg={useColorModeValue('blackAlpha.100', 'whiteAlpha.100')}
-        rounded={'full'}
+        bg={useColorModeValue("blackAlpha.100", "whiteAlpha.100")}
+        rounded={"full"}
         w={8}
         h={8}
-        cursor={'pointer'}
-        as={'a'}
+        cursor={"pointer"}
+        as={"a"}
         href={href}
-        target='_blank'
-        display={'inline-flex'}
-        alignItems={'center'}
-        justifyContent={'center'}
-        transition={'background 0.3s ease'}
+        target="_blank"
+        display={"inline-flex"}
+        alignItems={"center"}
+        justifyContent={"center"}
+        transition={"background 0.3s ease"}
         _hover={{
-          bg: useColorModeValue('blackAlpha.200', 'whiteAlpha.200'),
+          bg: useColorModeValue("blackAlpha.200", "whiteAlpha.200"),
         }}>
         <VisuallyHidden>{label}</VisuallyHidden>
         {children}
@@ -65,23 +65,23 @@ import {
   export default function SmallWithLogoLeft() {
     return (
       <Box
-        bg={useColorModeValue('gray.50', 'gray.900')}
-        color={useColorModeValue('gray.700', 'gray.200')}>
+        bg={useColorModeValue("gray.50", "gray.900")}
+        color={useColorModeValue("gray.700", "gray.200")}>
         <Container
           as={Stack}
-          maxW={'6xl'}
+          maxW={"6xl"}
           py={4}
-          direction={{ base: 'column', md: 'row' }}
+          direction={{ base: "column", md: "row" }}
           spacing={4}
-          justify={{ base: 'center', md: 'space-between' }}
-          align={{ base: 'center', md: 'center' }}>
-          <Image h='2rem' pr={5} src={useColorModeValue('iceplay_roxo.png', 'iceplay_branco.png')} alt='ICEPlay' objectFit='cover'/>
+          justify={{ base: "center", md: "space-between" }}
+          align={{ base: "center", md: "center" }}>
+          <Image h="2rem" pr={5} src={useColorModeValue("iceplay_roxo.png", "iceplay_branco.png")} alt="ICEPlay" objectFit="cover"/>
           <Text>Todos os direitos reservados 2021 – ICE Educação e Marketing LTDA – 38.829.320/0001-21</Text>
-          <Stack direction={'row'} spacing={6}>
-            <SocialButton label={'LinkedIn'} href={'https://www.linkedin.com/company/ice-play'}>
+          <Stack direction={"row"} spacing={6}>
+            <SocialButton label={"LinkedIn"} href={"https://www.linkedin.com/company/ice-play"}>
               <FaLinkedin />
             </SocialButton>
-            <SocialButton label={'Instagram'} href={'https://www.instagram.com/iceplaybr/'}>
+            <SocialButton label={"Instagram"} href={"https://www.instagram.com/iceplaybr/"}>
               <FaInstagram />
             </SocialButton>
           </Stack>

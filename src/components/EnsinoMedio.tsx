@@ -57,7 +57,7 @@ export default function EnsinoMedio() {
       justifyContent="center"
       alignItems="center"
     > 
-      <Box py={12} bg={useColorModeValue("white", "gray.700")} rounded="xl" shadow={'lg'}>
+      <Box py={12} bg={useColorModeValue("white", "gray.700")} rounded="xl" shadow={"lg"}>
         <Box maxW="7xl" mx="auto" px={{ base: 4, lg: 8 }}>
           <Box textAlign={{ lg: "center" }}>
             <chakra.h2

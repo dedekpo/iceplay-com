@@ -54,7 +54,7 @@ const MainHero = () => {
           <Button
             as="a"
             href={`https://api.whatsapp.com/send?phone=5531992322747&text=Ol%C3%A1!%20Gostaria%20de%20contratar%20a%20ICEPlay%20para%20a%20minha%20escola`}
-            target='_blank'
+            target="_blank"
             variant="solid"
             colorScheme="brand"
             display="inline-flex"
@@ -64,7 +64,7 @@ const MainHero = () => {
             mb={{ base: 2, sm: 0 }}
             size="lg"
             cursor="pointer"
-            bg={useColorModeValue('#4e579c', 'white')}
+            bg={useColorModeValue("#4e579c", "white")}
           >
             Contratar
             <Icon boxSize={4} ml={1} viewBox="0 0 20 20" fill="currentColor">
@@ -77,7 +77,7 @@ const MainHero = () => {
           </Button>
           <Button
             as="a"
-            href='/saiba-mais'
+            href="/saiba-mais"
             colorScheme="gray"
             display="inline-flex"
             alignItems="center"
@@ -105,9 +105,9 @@ const MainHero = () => {
         textAlign="center"
       >
         <AspectRatio 
-          w='full'
+          w="full"
           ratio={ 16 / 9 }
-          boxShadow='dark-lg'
+          boxShadow="dark-lg"
         >
           <chakra.iframe
             title="Introdução ICEPlay"

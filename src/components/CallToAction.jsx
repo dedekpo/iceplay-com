@@ -50,7 +50,7 @@ export default function CallToAction() {
           >
             <Link
               href={`https://api.whatsapp.com/send?phone=5531992322747&text=Ol%C3%A1!%20Gostaria%20de%20contratar%20a%20ICEPlay%20para%20a%20minha%20escola`}
-              target='_blank'
+              target="_blank"
               w={["full", , "auto"]}
               display="inline-flex"
               alignItems="center"
@@ -61,8 +61,8 @@ export default function CallToAction() {
               fontWeight="bold"
               rounded="md"
               shadow="md"
-              color={useColorModeValue("white", 'black')}
-              bg={useColorModeValue('#4e579c', 'white')} 
+              color={useColorModeValue("white", "black")}
+              bg={useColorModeValue("#4e579c", "white")} 
               _hover={{
                 bg: useColorModeValue("brand.700", "brand.600"),
               }}
@@ -70,7 +70,7 @@ export default function CallToAction() {
               Contrate
             </Link>
             <Link
-              href='/saiba-mais'
+              href="/saiba-mais"
               w={["full", , "auto"]}
               display="inline-flex"
               alignItems="center"
@@ -82,7 +82,7 @@ export default function CallToAction() {
               rounded="md"
               shadow="md"
               color="brand.600"
-              bg={useColorModeValue('white', 'gray.700')} 
+              bg={useColorModeValue("white", "gray.700")} 
               _hover={{
                 bg: "brand.50",
               }}

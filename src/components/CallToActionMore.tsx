@@ -53,7 +53,7 @@ export default function CallToActionMore() {
             <Box display="inline-flex" rounded="md" shadow="md">
               <Link
                 href={`https://api.whatsapp.com/send?phone=5531992322747&text=Ol%C3%A1!%20Gostaria%20de%20contratar%20a%20ICEPlay%20para%20a%20minha%20escola`}
-                target='_blank'
+                target="_blank"
                 w="full"
                 display="inline-flex"
                 alignItems="center"

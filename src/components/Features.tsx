@@ -35,7 +35,7 @@ export default function Features() {
             fontSize="lg"
             fontWeight="bold"
             lineHeight="6"
-            color={useColorModeValue('black', 'gray.100')}
+            color={useColorModeValue("black", "gray.100")}
           >
             {props.title}
           </chakra.dt>
@@ -69,7 +69,7 @@ export default function Features() {
         >
           <Box alignSelf="start">
             <chakra.h2
-              color='brand.500'
+              color="brand.500"
               fontWeight="semibold"
               textTransform="uppercase"
               letterSpacing="wide"
@@ -81,7 +81,7 @@ export default function Features() {
               fontSize={{ base: "3xl", md: "4xl" }}
               fontWeight="extrabold"
               textAlign={{ base: "center", sm: "left" }}
-              color={useColorModeValue('black', 'gray.100')}
+              color={useColorModeValue("black", "gray.100")}
               lineHeight="shorter"
               letterSpacing="tight"
             >

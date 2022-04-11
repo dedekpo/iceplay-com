@@ -158,7 +158,7 @@ export default function Header() {
             <Link
               m={-3}
               p={3}
-              href='/saiba-mais'
+              href="/saiba-mais"
               display="flex"
               alignItems="center"
               rounded="md"
@@ -197,7 +197,7 @@ export default function Header() {
           <Box display="flow-root">
             <Link
               href={`https://api.whatsapp.com/send?phone=5531992322747&text=Ol%C3%A1!%20Gostaria%20de%20contratar%20a%20ICEPlay%20para%20a%20minha%20escola`}
-              target='_blank'
+              target="_blank"
               m={-3}
               p={3}
               display="flex"
@@ -265,7 +265,7 @@ export default function Header() {
       <chakra.header h="full" bg={bg} w="full" px={{ base: 2, sm: 4 }} py={4}>
         <Flex alignItems="center" justifyContent="space-between" mx="auto" maxW={"7xl"}>
           <Link display="flex" alignItems="center" href="/">
-            <Image h='2rem' pr={5} src={useColorModeValue('iceplay_roxo.png', 'iceplay_branco.png')} alt='ICEPlay' objectFit='cover'/>
+            <Image h="2rem" pr={5} src={useColorModeValue("iceplay_roxo.png", "iceplay_branco.png")} alt="ICEPlay" objectFit="cover"/>
           </Link>
           <Box display={{ base: "none", md: "inline-flex" }}>
             <HStack spacing={1}>
@@ -295,7 +295,7 @@ export default function Header() {
           </Box>
           <Spacer />
           <Box display="flex" alignItems="center">
-              <chakra.a href="https://iceplay.com.br/login" target='_blank'>
+              <chakra.a href="https://iceplay.com.br/login" target="_blank">
                 <Button colorScheme="brand" variant="ghost" size="sm">
                   Entrar
                 </Button>
