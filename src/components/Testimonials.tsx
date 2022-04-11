@@ -86,7 +86,7 @@ export default function WithSpeechBubbles() {
                 <TestimonialContent>
                   <TestimonialHeading>Inovação</TestimonialHeading>
                   <TestimonialText>
-                    "Professor de MG cria plataforma para ajudar a formar alunos do ensino médio"
+                    &quot;Professor de MG cria plataforma para ajudar a formar alunos do ensino médio&quot;
                   </TestimonialText>
                 </TestimonialContent>
               </Testimonial>
@@ -108,7 +108,7 @@ export default function WithSpeechBubbles() {
                 <TestimonialContent>
                   <TestimonialHeading>Criatividade</TestimonialHeading>
                   <TestimonialText>
-                    "Além da Faria Lima: ICE Play facilita adoção do Novo Ensino Médio nas escolas do país"
+                    &quot;Além da Faria Lima: ICE Play facilita adoção do Novo Ensino Médio nas escolas do país&quot;
                   </TestimonialText>
                 </TestimonialContent>
               </Testimonial>
@@ -131,7 +131,7 @@ export default function WithSpeechBubbles() {
                 <TestimonialContent>
                   <TestimonialHeading>Empreendedorismo</TestimonialHeading>
                   <TestimonialText>
-                    "Plataforma Ice Play reduz custos da escola em 25%"
+                    &quot;Plataforma Ice Play reduz custos da escola em 25%&quot;
                   </TestimonialText>
                 </TestimonialContent>
               </Testimonial>
