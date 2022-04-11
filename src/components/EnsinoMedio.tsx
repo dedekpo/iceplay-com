@@ -123,7 +123,7 @@ export default function EnsinoMedio() {
                   />
                 }
               >
-                Também, haverá uma mudança nos itinerários formativos com a adição de novos conteúdos. Os chamados "STEM" (Ciência, Tecnologia, Engenharia e Matemática)
+                Também, haverá uma mudança nos itinerários formativos com a adição de novos conteúdos. Os chamados &quot;STEM&quot; (Ciência, Tecnologia, Engenharia e Matemática)
               </Feature>
 
               <Feature
