@@ -26,7 +26,7 @@ const MainHero = () => {
           letterSpacing={{ base: "normal", md: "tight" }}
           color={useColorModeValue("gray.900", "gray.100")}
         >
-          A plataforma de cursos do {" "}
+          A plataforma de cursos do {" "} <br />
           <Text
             display={{ base: "block", lg: "inline" }}
             w="full"
@@ -34,7 +34,7 @@ const MainHero = () => {
             bgGradient="linear(to-r, green.400, purple.500)"
             fontWeight="extrabold"
           >
-            <chakra.br/>Novo Ensino Médio
+            Novo Ensino Médio
           </Text>{" "}
         </chakra.h1>
         <chakra.p

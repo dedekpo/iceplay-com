@@ -76,13 +76,9 @@ const ICECard = () => {
         </Stack>
       </Box>
       <Box w={{ base: "full", md: 10 / 12 }} mx="auto" textAlign="center">
-        <Image
-          w="full"
-          rounded="lg"
-          shadow="2xl"
-          src="produto.png"
-          alt="Produto ICEPlay, aplicativo celular"
-        />
+        <video autoPlay loop muted>
+          <source src="videosite.mp4" type='video/mp4'/>
+        </video>
       </Box>
     </Flex>
   );

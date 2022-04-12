@@ -117,7 +117,7 @@ export default function Features() {
               </Feature>
               <Feature title="Os melhores professores">
                 {" "}
-                Contamos com professores renomados como o Head de Educação Financeira na XP Investimentos, Fundador do Instituto Brasileiro de Oratória.{" "}
+                Contamos com professores renomados como o Head de Educação Financeira na XP Investimentos e o Fundador do Instituto Brasileiro de Oratória.{" "}
               </Feature>
               <Feature title="Mais matrículas para a escola">
                 Como oferecemos os melhores cursos, com a melhor metodologia de ensino, fica muito mais fácil atrair novos talentos para a escola.

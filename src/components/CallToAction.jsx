@@ -35,7 +35,7 @@ export default function CallToAction() {
             lineHeight="shorter"
             color={useColorModeValue("gray.900", "gray.100")}
           >
-            <chakra.span display="block">Gostou né?</chakra.span>
+            <chakra.span display="block">Gostou, né?</chakra.span>
             <chakra.span
               display="block"
               color={useColorModeValue("brand.600", "gray.500")}

@@ -111,7 +111,7 @@ export default function EnsinoMedio() {
                   />
                 }
               >
-                Haverá um aumento de 25% na carga horária dos alunos, sendo 60% do currículo para as matérias tradicionais e 40% para os itinerários formativos.
+                Haverá um aumento de 25% na carga horária dos alunos. O novo ensino médio terá 3000 horas totais (são 600 horas a mais para os alunos).
               </Feature>
 
               <Feature
@@ -125,7 +125,7 @@ export default function EnsinoMedio() {
                   />
                 }
               >
-                Também, haverá uma mudança nos itinerários formativos com a adição de novos conteúdos. Os chamados &quot;STEM&quot; (Ciência, Tecnologia, Engenharia e Matemática)
+                Também, haverá uma mudança no currículo. 40% do novo ensino médio precisa ser dedicado à novos conteúdos, os chamados itinerários formativos.
               </Feature>
 
               <Feature
@@ -139,7 +139,7 @@ export default function EnsinoMedio() {
                   />
                 }
               >
-                Estudantes podem escolher caminhos de formação distintos e adequados aos seus projetos de vida, além de poder optar por uma formação técnica profissional.
+                Estudantes podem escolher caminhos de formação distintos e adequados aos seus projetos de vida, além de poderem optar por uma formação técnica profissional.
               </Feature>
               
             </Stack>
