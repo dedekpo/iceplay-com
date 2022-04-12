@@ -76,6 +76,7 @@ export default function Features() {
               fontWeight="semibold"
               textTransform="uppercase"
               letterSpacing="wide"
+              textAlign={ {base: 'center', md: 'inherit'} }
             >
               Tudo que você precisa
             </chakra.h2>
@@ -86,7 +87,6 @@ export default function Features() {
               textAlign={{ base: "center", sm: "left" }}
               color={useColorModeValue("black", "gray.100")}
               lineHeight="shorter"
-              letterSpacing="tight"
             >
               Plataforma Completa
             </chakra.h2>
