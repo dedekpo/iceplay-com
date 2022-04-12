@@ -9,6 +9,7 @@ import {
   SimpleGrid,
   Stack,
   GridItem,
+  useMediaQuery,
 } from "@chakra-ui/react";
 export default function Features() {
   const Feature = (props: any) => {
@@ -46,10 +47,14 @@ export default function Features() {
       </Flex>
     );
   };
+
+  const [isLargerThan1280] = useMediaQuery('(min-width: 1280px)')
+
   return (
+    
     <Flex
       bg={useColorModeValue("#F9FAFB", "gray.700")}
-      p={20}
+      p={isLargerThan1280 ? 20 : 0}
       w="auto"
       justifyContent="center"
       alignItems="center"
