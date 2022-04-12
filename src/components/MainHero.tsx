@@ -111,7 +111,7 @@ const MainHero = () => {
         >
           <chakra.iframe
             title="Introdução ICEPlay"
-            src="https://video.iceplay.com.br/watch/MTE4NTg4NQ==?fallback=true"
+            src="https://video.iceplay.com.br/watch/MTIzMTI1OA=="
             allowFullScreen
           />
         </AspectRatio>
