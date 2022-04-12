@@ -6,6 +6,7 @@ export default function Document() {
     <Html lang="pt-BR">
       <Head>
         <link rel="ice icon" href="favicon.png" />
+        <title>ICEPlay</title>
       </Head>    
       <body>
         <Main />

@@ -1,0 +1,2 @@
+iceplayHome:
+  component: "@sls-next/serverless-component"

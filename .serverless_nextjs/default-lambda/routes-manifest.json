@@ -1,0 +1,1 @@
+{"version":4,"pages404":true,"basePath":"","redirects":[],"headers":[],"dynamicRoutes":[],"staticRoutes":[{"page":"/","regex":"^/(?:/)?$","routeKeys":{},"namedRegex":"^/(?:/)?$"},{"page":"/saiba-mais","regex":"^/saiba\\-mais(?:/)?$","routeKeys":{},"namedRegex":"^/saiba\\-mais(?:/)?$"}],"dataRoutes":[],"rewrites":[]}

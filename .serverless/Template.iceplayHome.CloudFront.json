@@ -1,0 +1,86 @@
+{
+  "id": "E1LA5SB0GMKH0K",
+  "arn": "arn:aws:cloudfront::453640738288:distribution/E1LA5SB0GMKH0K",
+  "url": "https://d1m7rud6itrhl8.cloudfront.net",
+  "region": "us-east-1",
+  "enabled": true,
+  "comment": "",
+  "priceClass": "PriceClass_All",
+  "origins": [
+    {
+      "url": "http://03yh7si-xkv5gh.s3.us-east-1.amazonaws.com",
+      "private": true,
+      "pathPatterns": {
+        "_next/static/*": {
+          "minTTL": 0,
+          "defaultTTL": 86400,
+          "maxTTL": 31536000,
+          "forward": {
+            "headers": "none",
+            "cookies": "none",
+            "queryString": false
+          }
+        },
+        "static/*": {
+          "minTTL": 0,
+          "defaultTTL": 86400,
+          "maxTTL": 31536000,
+          "forward": {
+            "headers": "none",
+            "cookies": "none",
+            "queryString": false
+          }
+        },
+        "_next/data/*": {
+          "minTTL": 0,
+          "defaultTTL": 0,
+          "maxTTL": 31536000,
+          "allowedHttpMethods": [
+            "HEAD",
+            "GET"
+          ],
+          "forward": {
+            "cookies": "all",
+            "headers": [
+              "Authorization",
+              "Host"
+            ],
+            "queryString": true
+          },
+          "lambda@edge": {
+            "origin-request": "arn:aws:lambda:us-east-1:453640738288:function:03yh7si-x7w6r68:4",
+            "origin-response": "arn:aws:lambda:us-east-1:453640738288:function:03yh7si-x7w6r68:4"
+          }
+        }
+      }
+    }
+  ],
+  "errorPages": [],
+  "defaults": {
+    "minTTL": 0,
+    "defaultTTL": 0,
+    "maxTTL": 31536000,
+    "forward": {
+      "headers": [
+        "Authorization",
+        "Host"
+      ],
+      "cookies": "all",
+      "queryString": true
+    },
+    "allowedHttpMethods": [
+      "HEAD",
+      "DELETE",
+      "POST",
+      "GET",
+      "OPTIONS",
+      "PUT",
+      "PATCH"
+    ],
+    "lambda@edge": {
+      "origin-request": "arn:aws:lambda:us-east-1:453640738288:function:03yh7si-x7w6r68:4",
+      "origin-response": "arn:aws:lambda:us-east-1:453640738288:function:03yh7si-x7w6r68:4"
+    },
+    "compress": true
+  }
+}

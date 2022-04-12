@@ -1,0 +1,14 @@
+{
+  "region": "us-east-1",
+  "privateZone": false,
+  "domain": "iceplay.com.br",
+  "subdomains": [
+    {
+      "domain": "home.iceplay.com.br",
+      "distributionId": "E1LA5SB0GMKH0K",
+      "url": "https://d1m7rud6itrhl8.cloudfront.net",
+      "type": "awsCloudFront"
+    }
+  ],
+  "domainMinimumProtocolVersion": "TLSv1.2_2018"
+}
