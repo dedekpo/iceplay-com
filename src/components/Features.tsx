@@ -48,13 +48,11 @@ export default function Features() {
     );
   };
 
-  const [isLargerThan1280] = useMediaQuery('(min-width: 1280px)')
-
   return (
     
     <Flex
       bg={useColorModeValue("#F9FAFB", "gray.700")}
-      p={isLargerThan1280 ? 20 : 0}
+      p={{ base: 0, sm: 20 }}
       w="auto"
       justifyContent="center"
       alignItems="center"

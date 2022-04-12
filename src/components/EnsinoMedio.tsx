@@ -51,12 +51,10 @@ export default function EnsinoMedio() {
     );
   };
 
-  const [isLargerThan1280] = useMediaQuery('(min-width: 1280px)')
-
   return (
     <Flex
       bgGradient={useColorModeValue("linear(to-b, white, #F9FAFB)", "gray.600")}
-      p={isLargerThan1280 ? 20 : 0}
+      p={{ base: 0, sm: 20 }}
       w="auto"
       justifyContent="center"
       alignItems="center"
